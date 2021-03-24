@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        consumerProguardFiles 'proguard-consumer.pro'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+}
+
+dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:3.4.2'
+    implementation 'androidx.annotation:annotation:1.1.0'
+}

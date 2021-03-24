@@ -1,3 +1,6 @@
+# Stetho noop
+> You can use it by releaseApi com.github.cocomikes:stetho-noop:1.0.0
+
 # Stetho [![Build Status](https://travis-ci.org/facebook/stetho.svg?branch=master)](https://travis-ci.org/facebook/stetho)
 
 [Stetho](https://facebook.github.io/stetho) is a sophisticated debug bridge for Android applications. When enabled,
